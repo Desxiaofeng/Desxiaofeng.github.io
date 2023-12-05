@@ -6,4 +6,4 @@ tags:
 
 测试图片
 
-![](images/2023-12-05-13-31-33-image.png)
+![](test-img/2023-12-05-16-33-56-image.png)
