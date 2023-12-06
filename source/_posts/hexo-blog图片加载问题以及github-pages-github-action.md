@@ -22,17 +22,23 @@ tags:
 
 上面的叙述中出现了路径一词，你应该能够意识到这应该包括了绝对路径和相对路径。markdown允许通过绝对路径和相对路径来引用图片，下面是一些举例：
 
-1. ```markdown
-   ![] (D:\images\test.png)
-   ```
+方式1：
 
-2. ```markdown
-   ![] (https://www.sducraft.top/images/test.png)
-   ```
+```markdown
+![] (D:\images\test.png)
+```
 
-3. ```markdown
-   ![] (./images/test.png)
-   ```
+方式2：
+
+```markdown
+![] (https://www.sducraft.top/images/test.png)
+```
+
+方式3：
+
+```markdown
+![] (./images/test.png)
+```
 
 1和2用绝对路径引用，3用相对路径引用。
 
