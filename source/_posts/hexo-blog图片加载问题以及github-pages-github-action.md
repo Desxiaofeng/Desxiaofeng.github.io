@@ -15,7 +15,7 @@ tags:
 在编写文档时，我们常常会用到图片，而对于markdown这种纯文本而言，图片只能用标记来占据图片的位置，然后在标记中指明图片的路径，例如下面这样：
 
 ```markdown
-![图片描述](图片路径)
+![图片描述] (图片路径)
 ```
 
 这样当别人阅读时，别人知道去哪里找图片，当然，如果有markdown渲染器的话，别人就能直接看到图片。
@@ -23,15 +23,15 @@ tags:
 上面的叙述中出现了路径一词，你应该能够意识到这应该包括了绝对路径和相对路径。markdown允许通过绝对路径和相对路径来引用图片，下面是一些举例：
 
 1. ```markdown
-   ![](D:\images\test.png)
+   ![] (D:\images\test.png)
    ```
 
 2. ```markdown
-   ![](https://www.sducraft.top/images/test.png)
+   ![] (https://www.sducraft.top/images/test.png)
    ```
 
 3. ```markdown
-   ![](./images/test.png)
+   ![] (./images/test.png)
    ```
 
 1和2用绝对路径引用，3用相对路径引用。
@@ -48,7 +48,7 @@ tags:
 #post.md
 
 ...
-![](post/test.png)
+![] (post/test.png)
 ```
 
 对应的文件结构：
@@ -66,3 +66,5 @@ tags:
 或许你对这个问题不屑一顾，或许你对问题中的某些描述存在疑问，不管怎样，要充分理解并解决这个问题，你需要知道hexo和github pages究竟是怎么一回事。在blog开头我已经说过，要看懂这篇blog，你只需要知道什么是markdown，所以别担心，如果你足够耐心地往下看的话，我会向你解释它们。
 
 ## 二、Hexo and Github pages
+
+### Hexo
